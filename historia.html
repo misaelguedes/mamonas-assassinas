@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Mamonas Assassinas - História</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <img src="imagens/capa.png" alt="Capa">
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="#">História</a>
-        <a href="discografia.html">Discografia</a>
-        <a href="premios.html">Prêmios</a>
+        <div id="itens">
+            <a href="index.html">Home</a>
+            <a href="#">História</a>
+            <a href="discografia.html">Discografia</a>
+            <a href="premios.html">Prêmios</a>
+        </div>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
     </nav>
     <main>
         <h1>Carreira</h1>
@@ -179,5 +183,6 @@
     <footer>
         <a href="https://github.com/misaelguedes" target="_blank">&reg; Misael Guedes</a>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

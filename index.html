@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Mamonas Assassinas</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <img src="imagens/capa.png" alt="Capa">
     </header>
     <nav>
-        <a href="#">Home</a>
-        <a href="historia.html">História</a>
-        <a href="discografia.html">Discografia</a>
-        <a href="premios.html">Prêmios</a>
+        <div id="itens">
+            <a href="#">Home</a>
+            <a href="historia.html">História</a>
+            <a href="discografia.html">Discografia</a>
+            <a href="premios.html">Prêmios</a>
+        </div>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
     </nav>
     <main class="home">
         <p>Mamonas Assassinas foi uma banda brasileira de rock formada em Guarulhos em 1995, originada da banda Utopia. Notabilizaram-se por suas composições que conciliavam pop rock com gêneros musicais populares, tais como sertanejo, heavy metal, pagode romântico, vira e forró, e também por suas apresentações irreverentes e excêntricas. Tais fatores tornaram o grupo um notável expoente do rock cômico, gênero antagônico ao rock alternativo que seus integrantes vinham aplicando no repertório da banda Utopia.</p>
@@ -26,5 +30,6 @@
     <footer>
         <a href="https://github.com/misaelguedes" target="_blank">&reg; Misael Guedes</a>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

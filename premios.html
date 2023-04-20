@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Mamonas Assassinas - Prêmios</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <img src="imagens/capa.png" alt="Capa">
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="historia.html">História</a>
-        <a href="discografia.html">Discografia</a>
-        <a href="#">Prêmios</a>
+        <div id="itens">
+            <a href="index.html">Home</a>
+            <a href="historia.html">História</a>
+            <a href="discografia.html">Discografia</a>
+            <a href="#">Prêmios</a>
+        </div>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
     </nav>
     <main>
         <h1>Prêmios</h1>
@@ -25,46 +29,46 @@
                 <tr>
                     <th>Ano</th>
                     <th>Prêmio</th>
-                    <th>Categoria</th>
+                     <th>Categoria</th>
                     <th>Indicação</th>
-                    <th>Resultado</th>
+                     <th>Resultado</th>
                 </tr>
-            </thead>
-            <tbody>
+             </thead>
+             <tbody>
+                 <tr>
+                      <td rowspan="2">1995</td>
+                      <td>Troféu Xuxa Hits</td>
+                      <td></td>
+                     <td>Mamonas Assassinas</td>
+                      <td>Venceu</td>
+                 </tr>
                 <tr>
-                    <td rowspan="2">1995</td>
-                    <td>Troféu Xuxa Hits</td>
-                    <td></td>
-                    <td>Mamonas Assassinas</td>
+                     <td>1º Prêmio SBT de Música</td>
+                     <td>Revelação do Ano</td>
+                     <td>Mamonas Assassinas</td>
                     <td>Venceu</td>
-                </tr>
-                <tr>
-                    <td>1º Prêmio SBT de Música</td>
-                    <td>Revelação do Ano</td>
-                    <td>Mamonas Assassinas</td>
-                    <td>Venceu</td>
-                </tr>
-                <tr>
+                 </tr>
+                 <tr>
                     <td rowspan="2">1996</td>
-                    <td rowspan="2">Troféu Imprensa de 1996</td>
-                    <td>Revelação do Ano</td>
-                    <td>Mamonas Assassinas</td>
-                    <td>Venceu</td>
-                </tr>
-                <tr>
+                     <td rowspan="2">Troféu Imprensa de 1996</td>
+                     <td>Revelação do Ano</td>
+                      <td>Mamonas Assassinas</td>
+                      <td>Venceu</td>
+                   </tr>
+                   <tr>
                     <td>Melhor Música</td>
-                    <td>Pelados em Santos</td>
-                    <td>Venceu</td>
-                </tr>
-                <tr>
-                    <td>2012</td>
-                    <td>Grande Prêmio do Cinema Brasileiro</td>
-                    <td>Melhor Trilha-Sonora</td>
-                    <td>Documentário Mamonas Para Sempre</td>
-                    <td>Indicado</td>
-                </tr>
-            </tbody>
-        </table>
+                       <td>Pelados em Santos</td>
+                     <td>Venceu</td>
+                   </tr>
+                  <tr>
+                     <td>2012</td>
+                     <td>Grande Prêmio do Cinema Brasileiro</td>
+                     <td>Melhor Trilha-Sonora</td>
+                     <td>Documentário Mamonas Para Sempre</td>
+                      <td>Indicado</td>
+                 </tr>
+             </tbody>
+            </table>
         <h2>Recordes</h2>
         <ul>
             <li>Recorde brasileiro de vendas num só dia: 25 mil exemplares em 12 horas.</li>
@@ -77,5 +81,6 @@
     <footer>
         <a href="https://github.com/misaelguedes" target="_blank">&reg; Misael Guedes</a>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Mamonas Assassinas - Discografia</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <img src="imagens/capa.png" alt="Capa">
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="historia.html">História</a>
-        <a href="#">Discografia</a>
-        <a href="premios.html">Prêmios</a>
+        <div id="itens">
+            <a href="index.html">Home</a>
+            <a href="historia.html">História</a>
+            <a href="#">Discografia</a>
+            <a href="premios.html">Prêmios</a>
+        </div>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
     </nav>
     <main>
         <h2>Como Banda Utopia</h2>
@@ -40,7 +44,7 @@
                 </tr>
                 <tr>
                     <td>1991-1992</td>
-                    <td>1992</td>
+                 <td>1992</td>
                     <td>A Fórmula do Fenômeno</td>
                     <td>CD</td>
                     <td>Gravaram 1000 cópias, e venderam apenas 100.</td>
@@ -53,7 +57,7 @@
                     <td>Edição histórica do álbum A Fórmula do Fenômeno</td>
                 </tr>
             </tbody>
-        </table>
+         </table>
         <h2>Como Mamonas Assassinas</h2>
         <h3 class="disc">Fita Demo</h3>
         <ul>
@@ -79,5 +83,6 @@
     <footer>
         <a href="https://github.com/misaelguedes" target="_blank">&reg; Misael Guedes</a>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
