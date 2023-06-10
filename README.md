@@ -3,10 +3,10 @@
 </p>
 
 ## 🖥️ Projeto
-Este site foi criado para os fãs da banda Mamonas Assassinas, com a história, discografia e prêmios de um dos maiores fenômenos da história da música brasileira.
+Este site foi cuidadosamente desenvolvido para os apaixonados pela icônica banda brasileira Mamonas Assassinas. Aqui, você encontrará uma rica compilação da história, discografia e conquistas desse fenômeno musical que marcou época no Brasil. Explore o legado de um dos maiores e mais amados grupos da história da música brasileira, e mergulhe na trajetória que encantou milhões de fãs.
 
-## 🚀 Tecnologias
-Este site foi desenvolvido com as seguintes tecnologias:
+## 🚀 Tecnologias Utilizadas
+Este site foi desenvolvido utilizando as seguintes tecnologias:
 
 - HTML
 - CSS
