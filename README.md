@@ -11,4 +11,3 @@ Este site foi desenvolvido utilizando as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
-- Git e Github
